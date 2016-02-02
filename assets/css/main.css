@@ -2281,10 +2281,12 @@
 		}
 
 			.main.style1 h2 {
-				font-size: 4.25em;
+				font-size: 3.25em;
 				line-height: 1em;
-				color: black;
-				letter-spacing: 2px;
+				color: rgba(255, 255, 255, 0.85);
+				letter-spacing: 7px;
+				/*letter-spacing: -0.3px;
+				text-shadow: 0 0 2px purple;*/
 			}
 
 			.main.style1:before {
@@ -2403,8 +2405,8 @@
 			}
 
 #intro p {
-	color: black;
-	/*text-shadow: 0 0 3px white;*/
+	color: rgba(255, 255, 255, 0.85);
+	letter-spacing: 2px;
 }
 
 #intro p a {
@@ -2830,11 +2832,11 @@
 		left: 0;
 		top: 0;
 		width: 100%;
-		background: #fff;
-		background: rgba(255, 255, 255, 0.95);
+		background: rgba(0, 0, 0, 0.95);
 		height: 3em;
 		line-height: 3em;
 		box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
+		color:white;
 	}
 
 	body {
@@ -2885,7 +2887,7 @@
 /* Intro */
 
 	#intro {
-		background:  url("../../images/screamingpeopleblurteal.png");
+		background:  url("../../images/colors.jpg");
 		background-size:  cover;
 		background-attachment: fixed, fixed;
 		background-position: bottom center;
@@ -2899,6 +2901,15 @@
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
+	}
+
+/* Onetwo */
+
+	#onetwo {
+		background: url("../../images/screamingpeopleblurteal.png");
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: center center;
 	}
 
 /* Two */
