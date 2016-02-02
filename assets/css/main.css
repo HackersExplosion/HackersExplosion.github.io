@@ -2885,11 +2885,11 @@
 /* Intro */
 
 	#intro {
-		background: url("images/overlay.png"), url("../../images/screamingpeopleblurteal.png");
-		background-size: 256px 256px, cover;
+		background:  url("../../images/screamingpeopleblurteal.png");
+		background-size:  cover;
 		background-attachment: fixed, fixed;
-		background-position: top left, bottom center;
-		background-repeat: repeat, no-repeat;
+		background-position: bottom center;
+		background-repeat: no-repeat;
 	}
 
 /* One */
@@ -2904,12 +2904,20 @@
 /* Two */
 
 	#two {
-		background: url("images/overlay.png"), url("../../images/spaceteal.jpg");
-		background-size: 256px 256px, cover;
+		background:  url("images/overlay.png"), url("../../images/spaceteal.jpg");
+		background-size:  256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
 
+/* Three */
+
+	#three {
+		background:  url("../../images/bra.jpg");
+		background-size: cover;
+		background-attachment: fixed, fixed;
+		background-position: center center;
+	}
 /* Work */
 
 	#work .row.images .image {
