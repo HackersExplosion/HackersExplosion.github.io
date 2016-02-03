@@ -3234,15 +3234,15 @@
 		/* Main */
 
 			.main.style2 .content {
-				width: 40%;
+				width: 50%;
 			}
 
 			.main.style2.right .content {
-				left: 60%;
+				left: 50%;
 			}
 
 			.main.style2.inactive.left .content {
-				left: -40%;
+				left: -50%;
 			}
 
 	}
@@ -3487,6 +3487,31 @@
 
 	}
 
-	iframe .App-component-shareFooter .is-loaded-shareFooter .Poll-shareFooter {
-		display: none;
-	}
+/*** Works on common browsers ***/
+::selection {
+    background-color: #65E3FF;
+    color: #fff;
+}
+
+/*** Mozilla based browsers ***/
+::-moz-selection {
+    background-color: #65E3FF;
+    color: #fff;
+}
+
+/***For Other Browsers ***/
+::-o-selection {
+    background-color: #65E3FF;
+    color: #fff;
+}
+
+::-ms-selection {
+    background-color: #65E3FF;
+    color: #fff;
+}
+
+/*** For Webkit ***/
+::-webkit-selection {
+    background-color: #65E3FF;
+    color: #fff;
+}
